@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+  } 
+  
+  .MainDiv{
+   height: 100vh;
+   background:  linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),url(../../assets/Doc.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  }
+  .FormDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .FormDiv h1{
+    color: #fff;
+  }
+  .FormDiv p{
+    color: #fff;
+    font-size: 20px;
+  }
+  /* .MainDiv{ */
+    /* background-color: blue; */
+  /* } */
+  form{
+    display: flex;
+    flex-direction: column
+  }
+  .Btn{
+    height: 53px;
+    width: 420px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #439ce4;
+    color: white;
+    font-size: 18px;
+  }
+  input{
+    height: 50px;
+    width: 400px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 15px;
+    outline: none;
+  }
+  input::placeholder{
+    /* padding-left: 10px; */
+    color: white;
+    font-size: 18px;
+  }
+  
+  p a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+  }
+  .Google{
+    height: 53px;
+    width: 415px;
+    border: 1px solid rgb(252, 252, 252);
+    background: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #fff;
+    color: red;
+  }
+  .line1{
+    height: 1px;
+    width: 180px;
+    background-color: #fff;
+  }
+  .line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .line p{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
